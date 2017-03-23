@@ -1,0 +1,14 @@
+{
+    "name": "lucciano/riak-test",
+    "type": "project",
+    "require": {
+        "basho/riak": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luciano Andrade",
+            "email": "andrade.luciano@gmail.com"
+        }
+    ]
+}
