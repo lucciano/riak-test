@@ -49,8 +49,8 @@ $location2 = new Riak\Location('two', $bucket);
 
 $storeCommand2 = (new Command\Builder\StoreObject($riak))
 	->buildObject($val2)
-		->atLocation($location2)
-			->build();
+	->atLocation($location2)
+	->build();
 $storeCommand2->execute();
 
 $val3 = ['myValue' => 3];
